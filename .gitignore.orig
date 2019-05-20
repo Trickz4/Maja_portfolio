@@ -1,0 +1,10 @@
+<<<<<<< HEAD
+src/.vs
+=======
+.vs/
+>>>>>>> b88b319204f1d4e2ba3f46557f96f1ad2ac036c4
+bin/
+obj/
+packages/
+*.csproj.user
+.vs/Scheduler/v14/.suo
