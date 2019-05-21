@@ -47,6 +47,46 @@ textarea {
     margin-top: 0px;
 }
 
+.m_logo#logo_div {
+    text-align:center;
+    margin-top:-87px;
+    margin-bottom: 25px;
+}
+
+#work_icn {
+    width:48px;
+    height:48px; 
+}
+
+.navbar .navbar-collapse .nav li {
+    width:250px;
+   
+}
+
+.navbar .navbar-collapse .nav li a{
+   text-align:center;
+   padding:0px 0px 0px 0px;
+   margin: 15px 15px 15px 15px;   
+}
+
+.navbar .navbar-collapse .nav li p{
+    margin-top:10px;
+    border-top: 2px solid #ff0000;   
+    text-align:center;
+}
+
+.navbar .navbar-collapse .nav li img{  
+    text-align:center;
+}
+
+.banner {
+    text-align:center;
+}
+
+.banner img {
+    width: 100%;
+    height: 290px;
+}
 /*
     za underline ispod sličica za izbornik - mozda radi (http://adria.fesb.hr/~ibegov00/seminarski/)
 
