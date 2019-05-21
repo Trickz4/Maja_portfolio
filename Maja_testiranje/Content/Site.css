@@ -1,5 +1,5 @@
 ﻿body {
-    padding-top: 50px;
+    padding-top: 0px;
     padding-bottom: 20px;
 }
 
@@ -22,3 +22,47 @@ select,
 textarea {
     max-width: 280px;
 }
+
+#slika_header {
+    margin-bottom:0px;
+}
+
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}
+
+#M_logo {
+     max-width: 100%;
+     height: auto;
+
+    margin-top: 0px;
+}
+
+/*
+    za underline ispod sličica za izbornik - mozda radi (http://adria.fesb.hr/~ibegov00/seminarski/)
+
+
+    .active {
+    border-bottom: 4px solid #ff0000;
+
+    ili
+
+    #menu li a:hover{
+	border-bottom: 4px solid #333333;
+
+    vjerojatno ovako: 
+    border-bottom: solid;
+    border-bottom-color: aquamarine;
+	
+}
+}
+*/

@@ -26,5 +26,11 @@ namespace Maja_testiranje.Controllers
 
             return View();
         }
+        public ActionResult Test()
+        {
+            ViewBag.Message = "Testic 123";
+
+            return View();
+        }
     }
 }
