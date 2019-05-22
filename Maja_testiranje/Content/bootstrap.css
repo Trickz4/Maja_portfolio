@@ -5680,7 +5680,7 @@ body.modal-open,
 .modal-header {
   min-height: 16.428571429px;
   padding: 15px;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #8e8d8a;
 }
 
 .modal-header .close {
@@ -5701,7 +5701,7 @@ body.modal-open,
   padding: 19px 20px 20px;
   margin-top: 15px;
   text-align: right;
-  border-top: 1px solid black;
+  border-top: 1px solid #8e8d8a;
 }
 
 .modal-footer:before,

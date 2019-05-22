@@ -92,7 +92,7 @@ textarea {
     text-align:center;
     font-family: "Bebas", Times, serif;
     font-size: 22px;
-        color: #999999;
+    color: #8e8d8a;
 }
 
 .navbar .navbar-collapse .nav li a:hover p{
@@ -107,6 +107,7 @@ textarea {
 }
 
 
+
 /*proba za background image*/
 
 .banner {
@@ -115,7 +116,7 @@ textarea {
     margin-top: 0px;
     height: 290px;
 
-     background-position: center;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -214,15 +215,75 @@ footer {
 .bebas_font_modal_velicina_slova {
     font-family: "Bebas", Times, serif; 
     font-size:20px;
+    color: #8e8d8a;
 }
 
 .opci_font_modal_velicina_slova  {
     font-family: "Tw Cen MT Condensed", Times, serif; 
     font-size:20px;
+    color: #8e8d8a;
+}
+
+.opci_font_about  {
+    font-family: "Tw Cen MT Condensed", Times, serif; 
+    font-size:20px;
+    color: #eae9dd;
 }
 
 p.ikonice {
 
+}
+
+#contact_prvi_section {
+        margin-top: 127px;
+        margin-bottom: 200px;
+}
+
+.contact_ikona {
+    width:48px;
+    height:auto;
+    display:block;
+    float:left;
+    padding-right:10px;
+    padding-top:10px;
+}
+
+#kontakt_prvi_div {
+    padding-left:364px;
+}
+
+.contact_mini_odjeljak {
+        padding-top:1px;
+}
+
+#about_prvi_section {
+        margin-top: 127px;
+       margin-bottom: 200px;
+}
+
+#test {
+   background-image: url("/Content/Images/about_background.png");
+   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+      height: 297.5px;
+}
+
+#test2 {
+    width:100%;
+    height:100%;
+}
+
+#placeholder2 {
+    height:325px;
+}
+
+#spusti {
+    margin-bottom:200px;
+}
+
+#ima_hover:hover {
+    opacity: .5;
 }
 
 /*
