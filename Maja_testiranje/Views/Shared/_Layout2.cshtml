@@ -10,13 +10,14 @@
 </head>
 <body>
     <div class="banner">
-        <img src="~/Content/Images/loliceva-verzija.gif" alt="Smiley face">
+        @*<img src="~/Content/Images/loliceva-verzija.gif" alt="Smiley face">*@
+     
     </div>
 
     @*logo na sredini izmedu slike i menija*@
 
     <div class="m_logo" id="logo_div">
-        <img src="~/Content/Images/logo_icon.png" id="M_logo" width="200" height="198" align="middle">
+        <img src="~/Content/Images/logo_icon.png" id="M_logo">
     </div>
 
 
@@ -33,9 +34,20 @@
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href='@Url.Action("Index", "Home")' id="link_na_work">
+                        <a href='@Url.Action("Index", "Home")' id="link_na_index">
+                            <img src='@Url.Content("~/Content/Images/work_icon.png")' id="work_icn" />
+                            <p class="ikonice">HOME</p>
+                        </a>
+                        @* <img src="~/Content/Images/work_icon.png" id="work_icn" alt="sometext" />
+                        *@
+                        @* @Html.ActionLink("Home", "Index", "Home")*@
+                    </li>
+
+
+                    <li>
+                        <a href='@Url.Action("Work", "Home")' id="link_na_work">
                             <img src='@Url.Content("~/Content/Images/work_icon.png")' id="work_icn"/>
-                            <p>work</p>
+                            <p class="ikonice">WORK</p>
                         </a>
                        @* <img src="~/Content/Images/work_icon.png" id="work_icn" alt="sometext" />
    *@
@@ -43,23 +55,23 @@
                     </li>
 
                     <li>
-                        <a href='@Url.Action("Index", "Home")'>
-                            <img src='@Url.Content("~/Content/Images/work_icon.png")' id="work_icn" />
-                            <p>work</p>
+                        <a href='@Url.Action("Illustrations", "Home")'>
+                            <img src='@Url.Content("~/Content/Images/illustrations_icon.png")' id="work_icn" />
+                            <p class="ikonice">ILLUSTRATIONS</p>
                         </a>
                     </li>
 
                     <li>
-                        <a href='@Url.Action("Index", "Home")'>
-                            <img src='@Url.Content("~/Content/Images/work_icon.png")' id="work_icn" />
-                            <p>work</p>
+                        <a href='@Url.Action("About", "Home")'>
+                            <img src='@Url.Content("~/Content/Images/about_icon.png")' id="work_icn" />
+                            <p class="ikonice">ABOUT</p>
                         </a>
                     </li>
 
                     <li>
-                        <a href='@Url.Action("Index", "Home")'>
-                            <img src='@Url.Content("~/Content/Images/work_icon.png")' id="work_icn" />
-                            <p>work</p>
+                        <a href='@Url.Action("Contact", "Home")'>
+                            <img src='@Url.Content("~/Content/Images/contact_icon.png")' id="work_icn" />
+                            <p class="ikonice">CONTACT</p>
                         </a>
                     </li>
 
@@ -70,12 +82,12 @@
     </div>
     <div class="container body-content">
         @RenderBody()
-        <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
-        </footer>
+        @*<hr />*@
+       
     </div>
-
+    @*<footer>
+        <p>&copy; @DateTime.Now.Year MAJA LJUBETIC</p>
+    </footer>*@
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)

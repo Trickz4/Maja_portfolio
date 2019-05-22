@@ -1,0 +1,484 @@
+﻿
+@{
+    ViewBag.Title = "Work";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+
+
+
+
+    <div class="row" id="work_prvi_section">
+        @*prva slika*@
+        <div class="col-md-4">
+            <!-- Button trigger modal -->
+            <a href="#" class="pop">
+                <img class="work_slika" id="prva_slika" src="~/Content/Images/hta_poster_mockup_cut_body.jpg">
+            </a>
+            @*<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+                Launch demo modal
+            </button>*@
+
+            <!-- Modal 1-->
+            <div class="modal custom" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-md-9"><img class="img_unutar_modala" src="~/Content/Images/hta_poster_mockup.jpg"></div>
+                                    <div class="col-md-3" id="modal_text">
+                                        <p class="bebas_font_modal_velicina_slova" >Catalog Design </p>
+
+                                        <p class="opci_font_modal_velicina_slova">
+                                            Catalog prototype presented for the Visit Nordjylland advertisement campaign
+                                            school assignment; consists of catalog prototype, catalog advertisement preposition, business card prototype, A1 poster prototype and postcard prototype
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal" data-toggle="modal" data-target="#imagemodal2">Next</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+        @*druga slika*@
+        <div class="col-md-4">
+            <a href="#" class="pop2">
+                <img class="work_slika" src="~/Content/Images/scream_mockup_cut.jpg">
+            </a>
+            <!-- Modal -->
+            <div class="modal custom" id="imagemodal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-md-9"><img class="img_unutar_modala" src="~/Content/Images/scream_mockup.jpg"></div>
+                                    <div class="col-md-3" id="modal_text">
+                                        <p class="bebas_font_modal_velicina_slova">Catalog Design</p>
+
+                                        <p class="opci_font_modal_velicina_slova">
+                                            Catalog prototype presented for the Visit Nordjylland advertisement campaign
+                                            school assignment; consists of catalog prototype, catalog advertisement preposition, business card prototype, A1 poster prototype and postcard prototype
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-dismiss="modal" data-toggle="modal" data-target="#imagemodal">Previous</button>
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal" data-toggle="modal" data-target="#imagemodal3">Next</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+
+
+
+
+
+
+
+        @*treca slika*@
+        <div class="col-md-4">
+            <a href="#" class="pop3">
+                <img class="work_slika" src="~/Content/Images/brochure_mockup_cut.jpg">
+            </a>
+            <!-- Modal -->
+            <div class="modal custom" id="imagemodal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-md-9"><img class="img_unutar_modala" src="~/Content/Images/brochure_mockup.jpg"></div>
+                                    <div class="col-md-3" id="modal_text">
+                                        <p class="bebas_font_modal_velicina_slova">Catalog Design </p>
+
+                                        <p class="opci_font_modal_velicina_slova">
+                                            Catalog prototype presented for the Visit Nordjylland advertisement campaign
+                                            school assignment; consists of catalog prototype, catalog advertisement preposition, business card prototype, A1 poster prototype and postcard prototype
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-dismiss="modal" data-toggle="modal" data-target="#imagemodal2">Previous</button>
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal" data-toggle="modal" data-target="#imagemodal4">Next</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        </div>
+
+
+@*-------------------------------------------------------*@
+
+
+
+<div class="row" id="work_drugi_odjeljak">
+    @*cetvrta slika*@
+    <div class="col-md-4">
+        <!-- Button trigger modal -->
+        <a href="#" class="pop4">
+            <img class="work_slika" id="cetvrta_slika" src="~/Content/Images/cd_cover_mockup_cut.jpg">
+        </a>
+
+
+        <!-- Modal -->
+        <div class="modal custom" id="imagemodal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md-9"><img class="img_unutar_modala" src="~/Content/Images/cd_cover_mockup.jpg"></div>
+                                <div class="col-md-3" id="modal_text">
+                                    <p>Catalog Design </p>
+
+                                    <p>
+                                        Catalog prototype presented for the Visit Nordjylland advertisement campaign
+                                        school assignment; consists of catalog prototype, catalog advertisement preposition, business card prototype, A1 poster prototype and postcard prototype
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-dismiss="modal" data-toggle="modal" data-target="#imagemodal3">Previous</button>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary" data-dismiss="modal" data-toggle="modal" data-target="#imagemodal5">Next</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    @*peta slika*@
+    <div class="col-md-4">
+        <!-- Button trigger modal -->
+        <a href="#" class="pop5">
+            <img class="work_slika" id="peta_slika" src="~/Content/Images/portfolio_mockup2_cut.jpg">
+        </a>
+
+
+        <!-- Modal -->
+        <div class="modal custom" id="imagemodal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md-9"><img class="img_unutar_modala" src="~/Content/Images/portfolio_mockup2.jpg"></div>
+                                <div class="col-md-3" id="modal_text">
+                                    <p>Catalog Design </p>
+
+                                    <p>
+                                        Catalog prototype presented for the Visit Nordjylland advertisement campaign
+                                        school assignment; consists of catalog prototype, catalog advertisement preposition, business card prototype, A1 poster prototype and postcard prototype
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-dismiss="modal" data-toggle="modal" data-target="#imagemodal4">Previous</button>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary" data-dismiss="modal" data-toggle="modal" data-target="#imagemodal6">Next</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+        @*sesta slika*@
+        <div class="col-md-4">
+            <!-- Button trigger modal -->
+            <a href="#" class="pop6">
+                <img class="work_slika" id="sesta_slika" src="~/Content/Images/business_card_mockup.jpg">
+            </a>
+
+
+            <!-- Modal -->
+            <div class="modal custom" id="imagemodal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-md-9"><img class="img_unutar_modala" src="~/Content/Images/business_card_mockup.jpg"></div>
+                                    <div class="col-md-3" id="modal_text">
+                                        <p>Catalog Design </p>
+
+                                        <p>
+                                            Catalog prototype presented for the Visit Nordjylland advertisement campaign
+                                            school assignment; consists of catalog prototype, catalog advertisement preposition, business card prototype, A1 poster prototype and postcard prototype
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-dismiss="modal" data-toggle="modal" data-target="#imagemodal5">Previous</button>
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal" data-toggle="modal" data-target="#imagemodal7">Next</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div>
+
+
+@*-------------------------------------------------*@
+
+<div class="row" id="work_treci_odjeljak">
+    @*sedma slika*@
+    <div class="col-md-4">
+        <!-- Button trigger modal -->
+        <a href="#" class="pop7">
+            <img class="work_slika" id="cetvrta_slika" src="~/Content/Images/catalog_mockup_cut.jpg">
+        </a>
+
+
+        <!-- Modal -->
+        <div class="modal custom" id="imagemodal7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md-9"><img class="img_unutar_modala" src="~/Content/Images/catalog_mockup.jpg"></div>
+                                <div class="col-md-3" id="modal_text">
+                                    <p>Catalog Design </p>
+
+                                    <p>
+                                        Catalog prototype presented for the Visit Nordjylland advertisement campaign
+                                        school assignment; consists of catalog prototype, catalog advertisement preposition, business card prototype, A1 poster prototype and postcard prototype
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-dismiss="modal" data-toggle="modal" data-target="#imagemodal6">Previous</button>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary" data-dismiss="modal" data-toggle="modal" data-target="#imagemodal8">Next</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    @*osma slika*@
+    <div class="col-md-4">
+        <!-- Button trigger modal -->
+        <a href="#" class="pop8">
+            <img class="work_slika" id="peta_slika" src="~/Content/Images/ad_mockup_cut.jpg">
+        </a>
+
+
+        <!-- Modal -->
+        <div class="modal custom" id="imagemodal8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md-9"><img class="img_unutar_modala" src="~/Content/Images/ad_mockup.jpg"></div>
+                                <div class="col-md-3" id="modal_text">
+                                    <p>Catalog Design </p>
+
+                                    <p>
+                                        Catalog prototype presented for the Visit Nordjylland advertisement campaign
+                                        school assignment; consists of catalog prototype, catalog advertisement preposition, business card prototype, A1 poster prototype and postcard prototype
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-dismiss="modal" data-toggle="modal" data-target="#imagemodal7">Previous</button>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary" data-dismiss="modal" data-toggle="modal" data-target="#imagemodal9">Next</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    @*deveta slika*@
+    <div class="col-md-4">
+        <!-- Button trigger modal -->
+        <a href="#" class="pop9">
+            <img class="work_slika" id="sesta_slika" src="~/Content/Images/business card_mockup_nj_cut.jpg">
+        </a>
+
+
+        <!-- Modal -->
+        <div class="modal custom" id="imagemodal9" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md-9"><img class="img_unutar_modala" src="~/Content/Images/business_card_mockup_nj.jpg"></div>
+                                <div class="col-md-3" id="modal_text">
+                                    <p>Catalog Design </p>
+
+                                    <p>
+                                        Catalog prototype presented for the Visit Nordjylland advertisement campaign
+                                        school assignment; consists of catalog prototype, catalog advertisement preposition, business card prototype, A1 poster prototype and postcard prototype
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-dismiss="modal" data-toggle="modal" data-target="#imagemodal8">Previous</button>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary" data-dismiss="modal" data-toggle="modal" data-target="#imagemodal10">Next</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@*-------------------------------------------------*@
+
+<div class="row" id="work_cetvrti_odjeljak">
+    @*deseta slika*@
+    <div class="col-md-4">
+        <!-- Button trigger modal -->
+        <a href="#" class="pop10">
+            <img class="work_slika" id="deseta_slika" src="~/Content/Images/jutland_poster_mockup_cut.jpg">
+        </a>
+
+
+        <!-- Modal -->
+        <div class="modal custom" id="imagemodal10" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md-9"><img class="img_unutar_modala" src="~/Content/Images/jutland_poster_mockup.jpg"></div>
+                                <div class="col-md-3" id="modal_text">
+                                    <p>Catalog Design </p>
+
+                                    <p>
+                                        Catalog prototype presented for the Visit Nordjylland advertisement campaign
+                                        school assignment; consists of catalog prototype, catalog advertisement preposition, business card prototype, A1 poster prototype and postcard prototype
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-dismiss="modal" data-toggle="modal" data-target="#imagemodal9">Previous</button>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

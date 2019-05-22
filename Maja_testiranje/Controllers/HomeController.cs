@@ -15,20 +15,26 @@ namespace Maja_testiranje.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "About me";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "My contact page.";
 
             return View();
         }
-        public ActionResult Test()
+        public ActionResult Illustrations()
         {
-            ViewBag.Message = "Testic 123";
+            ViewBag.Message = "Illustrations";
+
+            return View();
+        }
+        public ActionResult Work()
+        {
+            ViewBag.Message = "Work";
 
             return View();
         }

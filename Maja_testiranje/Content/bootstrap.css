@@ -386,7 +386,7 @@ hr {
   margin-top: 20px;
   margin-bottom: 20px;
   border: 0;
-  border-top: 1px solid #eeeeee;
+  border-top: 1px solid #d7c2a4;
 }
 
 .sr-only {
@@ -400,8 +400,9 @@ hr {
   border: 0;
 }
 
+/*iskljucio da se ne micu ikonice nakon hovera u meniju - mozda treba vratit ako bude zajebavalo ostatak stranice*/ 
 p {
-  margin: 0 0 10px;
+  /*margin: 0 0 10px;*/
 }
 
 .lead {
@@ -1243,7 +1244,7 @@ pre code {
 
 @media (min-width: 1200px) {
   .container {
-    max-width: 1170px;
+        max-width: 1310px;
   }
   .col-lg-1,
   .col-lg-2,
@@ -2091,8 +2092,9 @@ fieldset[disabled] .btn-default.active {
 
 .btn-primary {
   color: #ffffff;
-  background-color: #428bca;
-  border-color: #357ebd;
+  background-color: #e98074;
+  border-color: #e98074;
+  font-family: "Bebas", Times, serif;
 }
 
 .btn-primary:hover,
@@ -2100,9 +2102,7 @@ fieldset[disabled] .btn-default.active {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-  color: #ffffff;
-  background-color: #3276b1;
-  border-color: #285e8e;
+ 
 }
 
 .btn-primary:active,
@@ -5647,7 +5647,7 @@ body.modal-open,
 
 .modal-content {
   position: relative;
-  background-color: #ffffff;
+      background-color: #eae9dd;
   border: 1px solid #999999;
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 6px;
@@ -5680,7 +5680,7 @@ body.modal-open,
 .modal-header {
   min-height: 16.428571429px;
   padding: 15px;
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid black;
 }
 
 .modal-header .close {
@@ -5701,7 +5701,7 @@ body.modal-open,
   padding: 19px 20px 20px;
   margin-top: 15px;
   text-align: right;
-  border-top: 1px solid #e5e5e5;
+  border-top: 1px solid black;
 }
 
 .modal-footer:before,

@@ -2012,3 +2012,78 @@ if (!jQuery) { throw new Error("Bootstrap requires jQuery") }
   })
 
 }(window.jQuery);
+
+
+// dodao sam: klikni sliku za otvorit modal - izbrisi ovu sramotu posli
+
+$(function () {
+    $('.pop').on('click', function () {
+        $('#imagepreview').attr('src', $(this).find('img').attr('src'));
+        $('#imagemodal').modal('show');
+    });
+});
+
+$(function () {
+    $('.pop2').on('click', function () {
+        $('#imagepreview2').attr('src', $(this).find('img').attr('src'));
+        $('#imagemodal2').modal('show');
+    });
+});
+
+$(function () {
+    $('.pop3').on('click', function () {
+        $('#imagepreview3').attr('src', $(this).find('img').attr('src'));
+        $('#imagemodal3').modal('show');
+    });
+});
+
+$(function () {
+    $('.pop4').on('click', function () {
+        $('#imagepreview4').attr('src', $(this).find('img').attr('src'));
+        $('#imagemodal4').modal('show');
+    });
+});
+
+$(function () {
+    $('.pop5').on('click', function () {
+        $('#imagepreview5').attr('src', $(this).find('img').attr('src'));
+        $('#imagemodal5').modal('show');
+    });
+});
+
+$(function () {
+    $('.pop6').on('click', function () {
+        $('#imagepreview6').attr('src', $(this).find('img').attr('src'));
+        $('#imagemodal6').modal('show');
+    });
+});
+
+$(function () {
+    $('.pop7').on('click', function () {
+        $('#imagepreview7').attr('src', $(this).find('img').attr('src'));
+        $('#imagemodal7').modal('show');
+    });
+});
+
+$(function () {
+    $('.pop8').on('click', function () {
+        $('#imagepreview8').attr('src', $(this).find('img').attr('src'));
+        $('#imagemodal8').modal('show');
+    });
+});
+
+$(function () {
+    $('.pop9').on('click', function () {
+        $('#imagepreview9').attr('src', $(this).find('img').attr('src'));
+        $('#imagemodal9').modal('show');
+    });
+});
+
+$(function () {
+    $('.pop10').on('click', function () {
+        $('#imagepreview10').attr('src', $(this).find('img').attr('src'));
+        $('#imagemodal10').modal('show');
+    });
+});
+
+

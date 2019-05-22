@@ -1,12 +1,26 @@
-﻿body {
+﻿@font-face{ 
+	font-family: 'Bebas';
+	src: url('/fonts/WebFont.eot');
+	src: url('/fonts/WebFont.eot?iefix') format('eot'),
+	     url('/fonts/Bebas-Regulat-webfont.woff') format('woff'),
+	     url('/fonts/Bebas-Regular.ttf') format('truetype'),
+	     url('/fonts/WebFont.svg#webfont') format('svg');
+}
+
+
+body {
     padding-top: 0px;
     padding-bottom: 20px;
+    background-color: #eae9dd;
+ 
 }
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
     padding-left: 15px;
     padding-right: 15px;
+    padding-bottom: 2.5em;
+    
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 
@@ -41,15 +55,18 @@ textarea {
 }
 
 #M_logo {
-     max-width: 100%;
-     height: auto;
-
+    object-fit: contain;
+    width:70px;
+    height:auto;
+    max-width: 100%;
     margin-top: 0px;
+    position: relative;
+    z-index: 3;
 }
 
 .m_logo#logo_div {
     text-align:center;
-    margin-top:-87px;
+    margin-top:-30px;
     margin-bottom: 25px;
 }
 
@@ -71,22 +88,143 @@ textarea {
 
 .navbar .navbar-collapse .nav li p{
     margin-top:10px;
-    border-top: 2px solid #ff0000;   
+    border-top: 2px solid #d7c2a4;   
     text-align:center;
+    font-family: "Bebas", Times, serif;
+    font-size: 22px;
+        color: #999999;
 }
+
+.navbar .navbar-collapse .nav li a:hover p{
+
+    border-top: 4px solid #d7c2a4;   
+    margin-bottom:10px;
+}
+
 
 .navbar .navbar-collapse .nav li img{  
     text-align:center;
 }
 
+
+/*proba za background image*/
+
 .banner {
-    text-align:center;
+
+    background-image: url("/Content/Images/loliceva-verzija-nova.gif");
+    margin-top: 0px;
+    height: 290px;
+
+     background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 2;
 }
 
-.banner img {
-    width: 100%;
-    height: 290px;
+.welcome_div {
+    margin-top: 80px;
 }
+
+.welcome_div h1 {
+    font-family: "Bebas", Times, serif;
+    font-size: 54px;
+    color: #999999;
+}
+
+
+footer {
+    display:block;
+       position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;  
+		font-family: "Bebas", Times, serif;			/* Height of the footer */
+        margin-left:20%;
+        margin-top:100px;
+}
+
+.prvi_odjeljak .col-md-12 {
+  padding-top:35px;
+  padding-left:35px;
+}
+
+#work_prvi_section {
+        margin-top: 127px;
+        margin-bottom: 30px;
+}
+
+#work_drugi_odjeljak {
+    margin-bottom: 30px;
+}
+
+#work_treci_odjeljak {
+    margin-bottom: 30px;
+}
+
+#lolo {
+    float:left;
+    width:100%;
+    height:100%;
+}
+
+.modal.custom .modal-dialog {
+    width:65%;
+    margin:0 auto;
+    /*add what you want here*/
+}
+
+
+
+#modal_text {
+    width: 25%;
+    position: absolute;
+    top: 50%;
+    margin: auto;
+    right: 0;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.work_slika {
+    width:100%;
+    height:100%;
+}
+
+.img_unutar_modala {
+    width:100%;
+}
+
+.btn-primary {
+    color:#eae9dd;
+}
+
+.btn-secondary {
+    font-family: "Bebas", Times, serif;
+}
+
+.bebas_font {
+    font-family: "Bebas", Times, serif; 
+}
+
+.opci_font {
+    font-family: "Tw Cen MT Condensed", Times, serif;
+}
+
+.bebas_font_modal_velicina_slova {
+    font-family: "Bebas", Times, serif; 
+    font-size:20px;
+}
+
+.opci_font_modal_velicina_slova  {
+    font-family: "Tw Cen MT Condensed", Times, serif; 
+    font-size:20px;
+}
+
+p.ikonice {
+
+}
+
 /*
     za underline ispod sličica za izbornik - mozda radi (http://adria.fesb.hr/~ibegov00/seminarski/)
 

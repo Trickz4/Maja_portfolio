@@ -211,11 +211,31 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Images\about_icon.png" />
+    <Content Include="Content\Images\ad_mockup.jpg" />
+    <Content Include="Content\Images\ad_mockup_cut.jpg" />
+    <Content Include="Content\Images\brochure_mockup.jpg" />
+    <Content Include="Content\Images\brochure_mockup_cut.jpg" />
+    <Content Include="Content\Images\business card_mockup_nj_cut.jpg" />
+    <Content Include="Content\Images\business_card_mockup.jpg" />
+    <Content Include="Content\Images\business_card_mockup_nj.jpg" />
+    <Content Include="Content\Images\catalog_mockup.jpg" />
+    <Content Include="Content\Images\catalog_mockup_cut.jpg" />
+    <Content Include="Content\Images\cd_cover_mockup.jpg" />
+    <Content Include="Content\Images\cd_cover_mockup_cut.jpg" />
     <Content Include="Content\Images\contact_icon.png" />
     <Content Include="Content\Images\headline.gif" />
+    <Content Include="Content\Images\hta_poster_mockup.jpg" />
+    <Content Include="Content\Images\hta_poster_mockup_cut_body.jpg" />
     <Content Include="Content\Images\illustrations_icon.png" />
+    <Content Include="Content\Images\jutland_poster_mockup.jpg" />
+    <Content Include="Content\Images\jutland_poster_mockup_cut.jpg" />
     <Content Include="Content\Images\logo_icon.png" />
-    <Content Include="Content\Images\loliceva-verzija.gif" />
+    <Content Include="Content\Images\loliceva-verzija-nova.gif" />
+    <Content Include="Content\Images\portfolio_mockup2.jpg" />
+    <Content Include="Content\Images\portfolio_mockup2_cut.jpg" />
+    <Content Include="Content\Images\scream_mockup.jpg" />
+    <Content Include="Content\Images\scream_mockup_cut.jpg" />
+    <Content Include="Content\Images\sirena_notebook_mockup.jpg" />
     <Content Include="Content\Images\work_icon.png" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -226,6 +246,9 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="fonts\Bebas-Regular-webfont.woff" />
+    <Content Include="fonts\Bebas-Regular.otf" />
+    <Content Include="fonts\Bebas-Regular.ttf" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -273,7 +296,8 @@
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Shared\_Layout2.cshtml" />
-    <Content Include="Views\Home\Test.cshtml" />
+    <Content Include="Views\Home\Work.cshtml" />
+    <Content Include="Views\Home\Illustrations.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
