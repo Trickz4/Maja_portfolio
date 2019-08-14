@@ -2014,7 +2014,7 @@ if (!jQuery) { throw new Error("Bootstrap requires jQuery") }
 }(window.jQuery);
 
 
-// dodao sam: klikni sliku za otvorit modal - izbrisi ovu sramotu posli
+// added - temporary solution - delete later - TODO: make a function !
 
 $(function () {
     $('.pop').on('click', function () {
